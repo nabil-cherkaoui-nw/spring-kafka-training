@@ -1,0 +1,8 @@
+version: '3'
+
+tasks:
+  run-producer:
+    desc: "Runs the Kafka producer Spring Boot application"
+    dir: producer
+    cmds:
+      - mvn spring-boot:run
